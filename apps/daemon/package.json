@@ -32,7 +32,7 @@
     "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.tests.json --noEmit"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.32.0",
     "@open-design/contracts": "workspace:*",
     "@open-design/platform": "workspace:*",
     "@open-design/sidecar": "workspace:*",
@@ -49,7 +49,7 @@
     "@types/multer": "^1.4.12",
     "@types/node": "^20.17.10",
     "typescript": "^5.6.3",
-    "vitest": "^2.1.8"
+    "vitest": "^5.1.0"
   },
   "engines": {
     "node": "~24"
